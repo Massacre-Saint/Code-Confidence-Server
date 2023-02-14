@@ -1,9 +1,9 @@
 """Module sets up Django Viewset for the class of LearnedTech"""
+from datetime import date
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from ccapi.models import Tech, User, LearnedTech
-from datetime import date
 
 class LearnedTechView(ViewSet):
     """Class creates viewset for LeanredTech"""
